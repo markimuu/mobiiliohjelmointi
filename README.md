@@ -1,4 +1,4 @@
-# mobiiliohjelmointi
+# Mobiiliohjelmointi
 
 Mobiiliohjelmointi (syksy 2020), harjoitustehtävät
 
