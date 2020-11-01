@@ -3,11 +3,12 @@ import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import logo from './assets/logo.png';
 //import Calculator from './root.js/Calculator';
-import NumberGuessingGame from './root.js/numberGuessingGame';
+//import NumberGuessingGame from './root.js/numberGuessingGame';
+import CalculatorWithHistory from './root.js/calculatorWithHistory';
 
 export default function App() {
   return (
-    <NumberGuessingGame />
+    <CalculatorWithHistory />
   );
 }
 
