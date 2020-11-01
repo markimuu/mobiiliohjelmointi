@@ -44,6 +44,7 @@ const CalculatorWithHistory = () => {
         </View>
         </View>
         <View style={styles.history}>
+        <Text>History</Text>
         <FlatList data={history} renderItem={({item}) => 
             <Text>{item.key}</Text>}
         />
