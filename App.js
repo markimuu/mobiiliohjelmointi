@@ -2,11 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import logo from './assets/logo.png';
-import Calculator from './root.js/Calculator';
+//import Calculator from './root.js/Calculator';
+import NumberGuessingGame from './root.js/numberGuessingGame';
 
 export default function App() {
   return (
-    <Calculator></Calculator>
+    <NumberGuessingGame />
   );
 }
 
