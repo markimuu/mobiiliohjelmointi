@@ -5,11 +5,12 @@ import logo from './assets/logo.png';
 //import Calculator from './root.js/Calculator';
 //import NumberGuessingGame from './root.js/numberGuessingGame';
 //import CalculatorWithHistory from './root.js/calculatorWithHistory';
-import ShoppingList from './root.js/shoppingList';
+//import ShoppingList from './root.js/shoppingList';
+import Index from './root.js/multiPageCalculator/index';
 
 export default function App() {
   return (
-    <ShoppingList />
+    <Index />
   );
 }
 
