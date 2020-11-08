@@ -4,15 +4,14 @@ import { TextInput, StyleSheet, Text, View, Button, FlatList, Image, Alert } fro
 
 const EuroConverter = () => {
     const [currencies, setCurrencies] = React.useState({});
-    const [value, setValue] = React.useState();
-    const [amount, setAmount] = React.useState();
-    const [euro, setEuro] = React.useState();
+    const [value, setValue] = React.useState('');
+    const [amount, setAmount] = React.useState('');
+    const [euro, setEuro] = React.useState('');
 
 
     const url = 'https://images.assetsdelivery.com/compings_v2/lara2016/lara20161912/lara2016191200093.jpg'; 
 
     React.useEffect(() => { 
-        return () => {
         fetch(`https://api.exchangeratesapi.io/latest`)
             .then(response => response.json())
             .then(data => {
@@ -21,13 +20,12 @@ const EuroConverter = () => {
             .catch((error) => { 
                 Alert.alert('Error', error); 
             }); 
-        }
-    }, []
+    }, [] 
     );
 
     const convert = () => {
         const euro = parseInt(amount) / value;
-        setEuro(euro);
+        setEuro(euro.toFixed(2));
     } 
 
     return (
