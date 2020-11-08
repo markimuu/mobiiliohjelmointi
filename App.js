@@ -7,11 +7,12 @@ import logo from './assets/logo.png';
 //import CalculatorWithHistory from './root.js/calculatorWithHistory';
 //import ShoppingList from './root.js/shoppingList';
 //import Index from './root.js/multiPageCalculator/index';
-import RecipeFinder from './root.js/recipeFinder';
+//import RecipeFinder from './root.js/recipeFinder';
+import EuroConverter from './root.js/euroConverter';
 
 export default function App() {
   return (
-    <RecipeFinder />
+    <EuroConverter />
   );
 }
 
