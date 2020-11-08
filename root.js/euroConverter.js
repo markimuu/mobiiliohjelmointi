@@ -30,7 +30,6 @@ const EuroConverter = () => {
         setEuro(euro);
     } 
 
-    console.log(amount)
     return (
     <View style={styles.container}>
         <View style={{justifyContent: 'center', alignItems: 'center', marginTop: 10}}>
