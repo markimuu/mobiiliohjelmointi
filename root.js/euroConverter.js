@@ -26,7 +26,7 @@ const EuroConverter = () => {
     );
 
     const convert = () => {
-        const euro = parseInt(amount) * value;
+        const euro = parseInt(amount) / value;
         setEuro(euro);
     } 
 
