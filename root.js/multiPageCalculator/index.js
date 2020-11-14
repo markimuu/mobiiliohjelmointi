@@ -9,12 +9,10 @@ const Stack = createStackNavigator();
 
 const Index = () => {
     return (
-      <NavigationContainer>
         <Stack.Navigator initialRouteName="CalculatorPage">
           <Stack.Screen name="CalculatorPage" component={CalculatorPage} />
           <Stack.Screen name="HistoryPage" component={HistoryPage} />
         </Stack.Navigator>
-      </NavigationContainer>
     );
  };
 

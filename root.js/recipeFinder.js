@@ -34,7 +34,7 @@ const RecipeFinder = () => {
         <View style={{justifyContent: 'flex-start', padding: 10, marginTop: 10, flex: 4}}>
           <FlatList data={recipes} ItemSeparatorComponent={ItemSeparator} renderItem={({item}) => (
             <View>  
-            <Text>{item.title}</Text>
+            <Text key={item.title}>{item.title}</Text>
             <Image style={styles.tinyLogo} source={{uri: item.thumbnail}} /> 
             </View>)}
         />

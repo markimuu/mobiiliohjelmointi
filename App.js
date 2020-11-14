@@ -2,17 +2,35 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import logo from './assets/logo.png';
-//import Calculator from './root.js/Calculator';
-//import NumberGuessingGame from './root.js/numberGuessingGame';
-//import CalculatorWithHistory from './root.js/calculatorWithHistory';
-//import ShoppingList from './root.js/shoppingList';
-//import Index from './root.js/multiPageCalculator/index';
-//import RecipeFinder from './root.js/recipeFinder';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import HomePage from './HomePage';
+import Calculator from './root.js/calculator';
+import NumberGuessingGame from './root.js/numberGuessingGame';
+import CalculatorWithHistory from './root.js/calculatorWithHistory';
+import ShoppingList from './root.js/shoppingList';
+import CalculatorPage from './root.js/multiPageCalculator/calculatorPage';
+import HistoryPage from './root.js/multiPageCalculator/historyPage';
+import RecipeFinder from './root.js/recipeFinder';
 import EuroConverter from './root.js/euroConverter';
+
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <EuroConverter />
+    <NavigationContainer>
+    <Stack.Navigator initialRouteName="HomePage">
+      <Stack.Screen name="HomePage" component={HomePage} />
+      <Stack.Screen name="Calculator" component={Calculator} />
+      <Stack.Screen name="NumberGuessingGame" component={NumberGuessingGame} />
+      <Stack.Screen name="CalculatorWithHistory" component={CalculatorWithHistory} />
+      <Stack.Screen name="HistoryPage" component={HistoryPage} />
+      <Stack.Screen name="ShoppingList" component={ShoppingList} />
+      <Stack.Screen name="CalculatorPage" component={CalculatorPage} />
+      <Stack.Screen name="RecipeFinder" component={RecipeFinder} />
+      <Stack.Screen name="EuroConverter" component={EuroConverter} />
+    </Stack.Navigator>
+  </NavigationContainer>
   );
 }
 

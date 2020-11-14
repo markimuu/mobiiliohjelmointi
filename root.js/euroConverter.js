@@ -41,7 +41,7 @@ const EuroConverter = () => {
         <Picker selectedValue={value} style={{height: 50, width: 100}}  
                 onValueChange={(itemValue, itemIndex) => setValue(itemValue)}>
             {Object.entries(currencies).map(([key, value]) => 
-               <Picker.Item label={key} value={value} /> )}
+               <Picker.Item key={key} label={key} value={value} /> )}
         </Picker>
         </View>
         <View style={{width: 100, height: 50, marginTop: 10}}>
