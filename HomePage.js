@@ -29,6 +29,9 @@ const HomePage = ({navigation}) => {
       <View style={{width: 50, height: 50, margin: 5}}>
           <Button onPress={() => navigation.navigate('EuroConverter')} title="7"/>
       </View>
+      <View style={{width: 50, height: 50, margin: 5}}>
+          <Button onPress={() => navigation.navigate('FindAddress')} title="8"/>
+      </View>
     </View>
     </View>
   );

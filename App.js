@@ -13,6 +13,7 @@ import CalculatorPage from './root.js/multiPageCalculator/calculatorPage';
 import HistoryPage from './root.js/multiPageCalculator/historyPage';
 import RecipeFinder from './root.js/recipeFinder';
 import EuroConverter from './root.js/euroConverter';
+import FindAddress from './root.js/findAddress';
 
 const Stack = createStackNavigator();
 
@@ -29,6 +30,7 @@ export default function App() {
       <Stack.Screen name="CalculatorPage" component={CalculatorPage} />
       <Stack.Screen name="RecipeFinder" component={RecipeFinder} />
       <Stack.Screen name="EuroConverter" component={EuroConverter} />
+      <Stack.Screen name="FindAddress" component={FindAddress} />
     </Stack.Navigator>
   </NavigationContainer>
   );
