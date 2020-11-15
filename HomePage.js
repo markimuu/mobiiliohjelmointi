@@ -35,6 +35,9 @@ const HomePage = ({navigation}) => {
       <View style={{width: 50, height: 50, margin: 5}}>
           <Button onPress={() => navigation.navigate('RestaurantFinder')} title="9"/>
       </View>
+      <View style={{width: 50, height: 50, margin: 5}}>
+          <Button onPress={() => navigation.navigate('AddressLocation')} title="10"/>
+      </View>
     </View>
     </View>
   );

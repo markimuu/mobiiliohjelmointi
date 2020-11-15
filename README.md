@@ -11,6 +11,7 @@ Mobiiliohjelmointi (syksy 2020), harjoitustehtävät
 - Tehtävä 7: [Euro Converter](/root.js/euroConverter.js)
 - Tehtävä 8: [Find Address](/root.js/findAddress.js)
 - Tehtävä 9: [Find Restaurant](/root.js/restaurantFinder.js)
+- Tehtävä 10: [Address With Location](/root.js/addressLocation.js)
 - Tehtävä 12: [Shopping list with database](/shopping_list_with_db/App.js)
 - Tehtävä 13: [Shopping list with polished UI](/shopping_list_with_polished_UI/App.js)
 - Tehtävä 14: [My places App](/my_places_app/App.js)

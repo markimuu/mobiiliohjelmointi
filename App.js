@@ -15,6 +15,7 @@ import RecipeFinder from './root.js/recipeFinder';
 import EuroConverter from './root.js/euroConverter';
 import FindAddress from './root.js/findAddress';
 import RestaurantFinder from './root.js/restaurantFinder';
+import AddressLocation from './root.js/addressLocation';
 
 const Stack = createStackNavigator();
 
@@ -33,6 +34,7 @@ export default function App() {
       <Stack.Screen name="EuroConverter" component={EuroConverter} />
       <Stack.Screen name="FindAddress" component={FindAddress} />
       <Stack.Screen name="RestaurantFinder" component={RestaurantFinder} />
+      <Stack.Screen name="AddressLocation" component={AddressLocation} />
     </Stack.Navigator>
   </NavigationContainer>
   );
