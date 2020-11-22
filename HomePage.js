@@ -39,6 +39,11 @@ const HomePage = ({navigation}) => {
           <Button onPress={() => navigation.navigate('AddressLocation')} title="10"/>
       </View>
     </View>
+    <View style={{alignItems:'center', flexDirection: 'row'}}>
+      <View style={{width: 50, height: 50, margin: 5}}>
+          <Button onPress={() => navigation.navigate('ShoppingListDb')} title="11"/>
+      </View>
+    </View>
     </View>
   );
 }
