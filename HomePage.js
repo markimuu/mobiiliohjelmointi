@@ -40,8 +40,11 @@ const HomePage = ({navigation}) => {
       </View>
     </View>
     <View style={{alignItems:'center', flexDirection: 'row'}}>
-      <View style={{width: 50, height: 50, margin: 5}}>
-          <Button onPress={() => navigation.navigate('ShoppingListDb')} title="11"/>
+      <View style={{width: 170, height: 50, margin: 5}}>
+          <Button onPress={() => navigation.navigate('ShoppingListDb')} title="Shopping List Sql Db"/>
+      </View>
+      <View style={{width: 170, height: 50, margin: 5}}>
+          <Button onPress={() => navigation.navigate('ShoppingListFbDb')} title="Shopping List Fb Db"/>
       </View>
     </View>
     </View>

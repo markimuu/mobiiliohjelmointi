@@ -17,6 +17,7 @@ import FindAddress from './root.js/findAddress';
 import RestaurantFinder from './root.js/restaurantFinder';
 import AddressLocation from './root.js/addressLocation';
 import ShoppingListDb from './root.js/shoppingListWithSqlDb';
+import ShoppingListFbDb from './root.js/shoppingListWithFbDb';
 
 const Stack = createStackNavigator();
 
@@ -37,6 +38,7 @@ export default function App() {
       <Stack.Screen name="RestaurantFinder" component={RestaurantFinder} />
       <Stack.Screen name="AddressLocation" component={AddressLocation} />
       <Stack.Screen name="ShoppingListDb" component={ShoppingListDb} />
+      <Stack.Screen name="ShoppingListFbDb" component={ShoppingListFbDb} />
     </Stack.Navigator>
   </NavigationContainer>
   );
