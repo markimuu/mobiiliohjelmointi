@@ -19,6 +19,7 @@ import AddressLocation from './root.js/addressLocation';
 import ShoppingListDb from './root.js/shoppingListWithSqlDb';
 import ShoppingListFbDb from './root.js/shoppingListWithFbDb';
 import Contacts from './root.js/contacts';
+import Speech from './root.js/textToSpeech';
 
 const Stack = createStackNavigator();
 
@@ -41,6 +42,7 @@ export default function App() {
       <Stack.Screen name="ShoppingListDb" component={ShoppingListDb} />
       <Stack.Screen name="ShoppingListFbDb" component={ShoppingListFbDb} />
       <Stack.Screen name="Contacts" component={Contacts} />
+      <Stack.Screen name="Speech" component={Speech} />
     </Stack.Navigator>
   </NavigationContainer>
   );

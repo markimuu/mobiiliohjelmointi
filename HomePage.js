@@ -51,6 +51,9 @@ const HomePage = ({navigation}) => {
       <View style={{width: 170, height: 50, margin: 5}}>
           <Button onPress={() => navigation.navigate('Contacts')} title="Contacts"/>
       </View>
+      <View style={{width: 170, height: 50, margin: 5}}>
+          <Button onPress={() => navigation.navigate('Speech')} title="Speech"/>
+      </View>
     </View>
     </View>
   );
