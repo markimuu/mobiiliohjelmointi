@@ -47,6 +47,11 @@ const HomePage = ({navigation}) => {
           <Button onPress={() => navigation.navigate('ShoppingListFbDb')} title="Shopping List Fb Db"/>
       </View>
     </View>
+    <View style={{alignItems:'center', flexDirection: 'row'}}>
+      <View style={{width: 170, height: 50, margin: 5}}>
+          <Button onPress={() => navigation.navigate('Contacts')} title="Contacts"/>
+      </View>
+    </View>
     </View>
   );
 }
