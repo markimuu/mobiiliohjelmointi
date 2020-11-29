@@ -20,6 +20,7 @@ import ShoppingListDb from './root.js/shoppingListWithSqlDb';
 import ShoppingListFbDb from './root.js/shoppingListWithFbDb';
 import Contacts from './root.js/contacts';
 import Speech from './root.js/textToSpeech';
+import ShoppingListUI from './root.js/shoppingListUI';
 
 const Stack = createStackNavigator();
 
@@ -43,6 +44,7 @@ export default function App() {
       <Stack.Screen name="ShoppingListFbDb" component={ShoppingListFbDb} />
       <Stack.Screen name="Contacts" component={Contacts} />
       <Stack.Screen name="Speech" component={Speech} />
+      <Stack.Screen name="ShoppingListReactNativeElement" component={ShoppingListUI} />
     </Stack.Navigator>
   </NavigationContainer>
   );

@@ -16,5 +16,5 @@ Mobiiliohjelmointi (syksy 2020), harjoitustehtävät
 - Tehtävä 12: [Shopping list with Firebase databse](/root.js/shoppingListWithFbDb.js)
 - Tehtävä 13: [Contact list](/root.js/contacts.js)
 - Tehtävä 14: [Text to speech](/root.js/textToSpeech.js)
-- Tehtävät 15: [Shopping List with Native Elements]()
+- Tehtävät 15: [Shopping List with Native Elements](/root.js/shoppingListUI.js)
 - Tehtävä 16: [MyPlaces App](/my_places_app/App.js)

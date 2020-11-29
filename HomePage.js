@@ -55,6 +55,11 @@ const HomePage = ({navigation}) => {
           <Button onPress={() => navigation.navigate('Speech')} title="Speech"/>
       </View>
     </View>
+    <View style={{alignItems:'center', flexDirection: 'row'}}>
+      <View style={{width: 170, height: 50, margin: 5}}>
+          <Button onPress={() => navigation.navigate('ShoppingListReactNativeElement')} title="Shopping List UI"/>
+      </View>
+    </View>
     </View>
   );
 }
